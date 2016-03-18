@@ -1,5 +1,7 @@
 ls -l | grep "...x" | wc -l
 
+ll | cut -d ' ' -f 1 | grep x
+
 ps aux | grep "chrome" | wc
 
 cat /etc/passwd/ | [1-9][0-9][0-9] | wc
